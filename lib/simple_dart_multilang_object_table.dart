@@ -1,11 +1,5 @@
-import 'package:simple_dart_multilang_table/simple_dart_multilang_table.dart';
-import 'package:simple_dart_object_table/simple_dart_object_table.dart';
+library simple_dart_multilang_object_table;
 
-class MultilangObjectTable<T> extends ObjectTable<T> {
-  MultilangObjectTable(ObjectTableRowAdapter<T> objectRowAdapter, {selectable = false})
-      : super(objectRowAdapter, selectable: selectable) {
-    columnToHeaderCell = tableColumnToHeaderCellMultilang;
-    valueToCell = tableValueToCellMultilang;
-    valueToString = tableValueToStringMultilang;
-  }
-}
+export 'src/multilang_object_table.dart';
+export 'src/multilang_object_table_header_row.dart';
+export 'src/multilang_object_table_row.dart';

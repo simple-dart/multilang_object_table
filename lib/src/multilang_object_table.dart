@@ -2,7 +2,6 @@ import 'package:simple_dart_object_table/simple_dart_object_table.dart';
 import 'package:simple_dart_table/simple_dart_table.dart';
 
 import '../simple_dart_multilang_object_table.dart';
-import 'multilang_object_table_header_row.dart';
 
 class MultilangObjectTable<T> extends ObjectTable<T> {
   bool _checkboxVisible = false;

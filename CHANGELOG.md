@@ -1,3 +1,7 @@
+## 0.1.3
+
+- Update simple_dart_object_table to 0.1.4
+
 ## 0.1.2
 
 - Update simple_dart_object_table to 0.1.2

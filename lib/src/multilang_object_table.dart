@@ -1,12 +1,13 @@
 import 'package:simple_dart_object_table/simple_dart_object_table.dart';
 import 'package:simple_dart_table/simple_dart_table.dart';
+import 'package:simple_dart_ui_core/simple_dart_ui_core.dart';
 
 import '../simple_dart_multilang_object_table.dart';
 
 class MultilangObjectTable<T> extends ObjectTable<T> {
   bool _checkboxVisible = false;
 
-  MultilangObjectTable(ObjectTableRowAdapter<T> objectRowAdapter) : super(objectRowAdapter);
+  MultilangObjectTable(ObjectListAdapter<T> objectRowAdapter) : super(objectRowAdapter);
 
   @override
   void initColumns(List<TableColumnDescr> columns) {
